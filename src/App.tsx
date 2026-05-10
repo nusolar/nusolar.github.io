@@ -1,4 +1,3 @@
-import landingVideo from "./assets/landing_video.mp4";
 import sunLogo from "./assets/sun_logo.svg";
 
 export default function App() {
@@ -18,7 +17,10 @@ export default function App() {
           objectFit: "cover",
         }}
       >
-        <source src={landingVideo} type="video/mp4" />
+        <source
+          src="https://pub-d2be5830f50f4ae092049757dbad77fe.r2.dev/landing_video.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <img
