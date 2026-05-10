@@ -30,8 +30,8 @@ export default function App() {
           position: "absolute",
           top: "24px",
           left: "24px",
-          width: "64px",
-          height: "64px",
+          width: "250px",
+          height: "250px",
           zIndex: 10,
         }}
       />
